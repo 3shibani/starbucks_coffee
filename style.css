@@ -1,0 +1,145 @@
+*{
+    margin: 5px;
+    padding: 2px;
+    outline: 1;
+    
+    box-sizing: border-box;
+}
+body{
+    background-color:lavender;
+}
+.main{
+    overflow: hidden;
+}
+
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    width: 100%;
+    display: inline-block;
+    white-space:nowrap;
+    
+}
+.navbar span{
+    margin: 15px;
+
+}
+ .text{
+    font-size: x-large;
+   
+}
+.star{
+    font-size: xx-large;
+}
+p .bocks{
+    
+    color: green;
+    font-weight:900;
+}
+.image{
+    text-align:right;
+    max-width: 100%;
+}
+.image{
+    display: inline-block;
+    width:40%
+}
+.main{
+    display: grid;
+    display: -ms-inline-grid;
+    row-gap: 5px ;
+    column-gap: 50px;
+}
+.text .txt{
+    font-size: medium;
+    text-align: center;
+    line-height: 20pt;
+    word-spacing: 1px;
+}
+.navbar{
+    grid-column-start: 2;
+    grid-column-end: 3;
+}
+.text{
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.image{
+    display: inline-block;
+    margin: 20px 5%;
+    width: 40%;
+}
+.navbar .bord{
+    color:white;
+    background-color: green;
+    border-radius: 20px;
+    padding:5px 10px;
+}
+.random p{
+    color:wheat;
+    background-color: green;
+    padding: 10px 20px;
+    text-align: center;
+    font-size: x-large;
+    border: 2px solid blueviolet;
+    border-radius: 30px;
+    text-shadow: brown;
+    
+
+}
+.text .text,.bocks,.star{
+    text-align: center;
+    
+}
+.text.text{
+    word-spacing: 5px;
+    font-size: xx-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    
+}
+.text.bocks{
+    word-spacing: 13px;
+    
+}
+.text.star{
+    word-spacing: 13px;
+     font-weight:200 ;
+     font-size: xx-large;
+}
+.random:hover{
+    color:black;
+    cursor: pointer;
+}
+
+.icon{
+    text-align: right;
+    
+
+
+}
+.logo{
+    display: inline-block;
+}
+
+@media screen and (max-width:1024px)
+{
+    .main{
+        margin: 4rem;
+    }
+}
+@media screen and (max-width:768px){
+    .main{
+        width:90vw
+    }
+    .body{
+        background-repeat: no-repeat;
+    }
+}
+@media screen and (max-width:365px){
+    html{
+        font-size: 50%;
+    }
+}
